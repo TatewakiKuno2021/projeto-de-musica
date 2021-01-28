@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Kufam', cursive; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+:root {
+    --soft-yellow: #c5b45d;
+    --soft-red: #ae343d;
+    --soft-brown: #222220;
+    --soft-gray: #b4ae9e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-X: hidden;
+}
+
+.content {
+    clear: both;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    clear: both;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
